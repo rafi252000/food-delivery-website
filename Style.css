@@ -12,6 +12,7 @@ body {
   padding: 10px 20px;
   margin: 0;
   background-color: white;
+  width: 100%;
 }
 #home-btn {
   text-decoration: none;
@@ -91,22 +92,72 @@ body {
   background-color: #ff006e;
   color: #ffffff;
 }
-#popular-title{
+#popular-title {
   font-size: 32px;
+  padding-left: 50px;
 }
-#popular-btn{
+#popular-btn {
   font-size: 18px;
 }
-.popular-grid{
+.popular-grid {
   max-width: fit-content;
   display: grid;
   gap: 10px;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
+  padding-left: 50px;
+  padding-right: 50px;
 }
-.sec-grid{
+.sec-grid {
   grid-column: span 2;
 }
-.popular-grid-sec{
+.popular-grid-sec {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
+}
+.popular-grid img {
+  border-radius: 7%;
+}
+.nav-item-s {
+  width: 80%;
+}
+.works-area {
+  padding: ;
+}
+#work-titel {
+  font-size: 32px;
+  padding-left: 50px;
+  font-size: 48px;
+  text-align: center;
+}
+#download-advertisement {
+  background-color: #ff6a90;
+  width: 1600px;
+  height: 340px;
+  border-radius: 30px;
+  padding: 5px 15px;
+  margin: 4%;
+}
+#download-advertisement-title {
+  font-size: 48px;
+  color: #ffffff;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+#download-advertisement button {
+  font-size: 21px;
+  border: 0;
+  border-radius: 30px;
+  padding: 5px 15px;
+  background-color: #283646;
+  color: #ffffff;
+  margin-left: 40px;
+}
+#download-advertisement-cro {
+  display: flex;
+  margin-top: 30px;
+
+}
+#download-advertisement-cro p{
+  color: #ffffff;
+  margin-left: 7%;
 }
