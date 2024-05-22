@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap");
+
+body {
+  font-family: "Jost", sans-serif;
+}
+
+#nav-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 10px 20px;
+  margin: 0;
+  background-color: white;
+}
+#home-btn {
+  text-decoration: none;
+  color: #f40469;
+  font-weight: 700;
+  font-size: 32px;
+  cursor: pointer;
+}
+#sign-up-btn {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 18px;
+}
+#carousal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("Image/bg1.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 504px;
+
+}
+#caro-title {
+  font-size: 56px;
+  color: #ffffff;
+}
+#caro-input {
+  margin: 43px 0;
+}
+#caro-input input {
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  border-start-start-radius: 30px;
+  border-end-start-radius: 30px;
+  padding: 11px 50px 11px 20px;
+  border-width: 0;
+  outline: none;
+}
+#caro-input button {
+  border: 0px;
+  border-start-end-radius: 30px;
+  border-end-end-radius: 30px;
+  margin-left: -10px;
+  background-color: #FF006E;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px;
+  /* height: 56px; */
+}
