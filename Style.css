@@ -4,7 +4,7 @@ body {
   font-family: "Jost", sans-serif;
 }
 
-#nav-item {
+.nav-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,7 +35,6 @@ body {
   background-size: cover;
   background-position: center;
   height: 504px;
-
 }
 #caro-title {
   font-size: 56px;
@@ -58,9 +57,56 @@ body {
   border-start-end-radius: 30px;
   border-end-end-radius: 30px;
   margin-left: -10px;
-  background-color: #FF006E;
+  background-color: #ff006e;
   color: #ffffff;
   font-size: 18px;
   padding: 10px;
   /* height: 56px; */
+}
+
+#download-sect {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px;
+  margin: 120px 0px;
+}
+#download-sect-img {
+  padding: 20px;
+}
+#download-sect-txt {
+  margin: auto 20px;
+}
+#download-sect-txt h1 {
+  font-size: 48px;
+}
+#download-sect-txt p {
+  font-size: 16px;
+  font-weight: 195;
+}
+#download-sect-txt button {
+  font-size: 21px;
+  border: 0;
+  border-radius: 30px;
+  padding: 5px 15px;
+  background-color: #ff006e;
+  color: #ffffff;
+}
+#popular-title{
+  font-size: 32px;
+}
+#popular-btn{
+  font-size: 18px;
+}
+.popular-grid{
+  max-width: fit-content;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3,1fr);
+}
+.sec-grid{
+  grid-column: span 2;
+}
+.popular-grid-sec{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
 }
